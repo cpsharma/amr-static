@@ -45,6 +45,16 @@ h3 { font-size: 1.3rem; }
 p + p { margin-top: 1em; }
 
 a { color: inherit; }
+a[href="/downloads/amr-universal-profile.pdf"],
+a[href*="/downloads/amr-universal-profile.pdf"],
+a[href="/live-desk"],
+a[href*="/live-desk"] {
+  display: none !important;
+}
+.wire-form,
+.wire-confirm {
+  display: none !important;
+}
 
 img { max-width: 100%; height: auto; }
 
